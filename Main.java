@@ -11,6 +11,7 @@ public class Main {
 		animalMap.put("dog", "犬");
 		animalMap.put("cat", "猫");
 		animalMap.put("bird", "鳥");
+		animalMap.put("cow", "牛");
 		for (Iterator<String> itr = animalMap.keySet().iterator(); itr.hasNext();) {
 			String key = itr.next();
 			System.out.println(key + ":" + animalMap.get(key));

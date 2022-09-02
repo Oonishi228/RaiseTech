@@ -36,6 +36,7 @@ public class Main {
 			System.out.println("エラーです。");
 			throw e;
 		}
+//テストでコメントを追加しました。
 
 	}
 }
